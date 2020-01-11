@@ -1,0 +1,55 @@
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.csprojAssemblyReference.cache
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.doctorMainMenu.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.Form1.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.medicalRecordRequests.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.medicalRecords.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.Properties.Resources.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.csproj.GenerateResource.cache
+E:\CSC 340\ServiceSystem\ServiceSystem\bin\Debug\ServiceSystem.exe.config
+E:\CSC 340\ServiceSystem\ServiceSystem\bin\Debug\ServiceSystem.exe
+E:\CSC 340\ServiceSystem\ServiceSystem\bin\Debug\ServiceSystem.pdb
+E:\CSC 340\ServiceSystem\ServiceSystem\bin\Debug\Google.Protobuf.dll
+E:\CSC 340\ServiceSystem\ServiceSystem\bin\Debug\BouncyCastle.Crypto.dll
+E:\CSC 340\ServiceSystem\ServiceSystem\bin\Debug\MySql.Data.xml
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.csproj.CopyComplete
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.exe
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.pdb
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.Appointments.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.refillRequests.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.requestedCalls.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.patientMainMenu.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\bin\Debug\MySql.Data.dll
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.patientDoctorRequests.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.csproj.CoreCompileInputs.cache
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.createPrescription.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.requestCall.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.patientSelfRecords.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.patientRefills.resources
+E:\CSC 340\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.requestAppointment.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\bin\Debug\ServiceSystem.exe.config
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\bin\Debug\ServiceSystem.exe
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\bin\Debug\ServiceSystem.pdb
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\bin\Debug\Google.Protobuf.dll
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\bin\Debug\MySql.Data.xml
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.csprojAssemblyReference.cache
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.Appointments.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.createPrescription.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.doctorMainMenu.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.Form1.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.medicalRecordRequests.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.medicalRecords.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.patientDoctorRequests.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.patientMainMenu.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.patientRefills.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.patientSelfRecords.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.Properties.Resources.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.refillRequests.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.requestAppointment.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.requestCall.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.requestedCalls.resources
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.csproj.GenerateResource.cache
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.csproj.CoreCompileInputs.cache
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.csproj.CopyComplete
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.exe
+C:\Users\badwo\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets\ServiceSystem\ServiceSystem\obj\Debug\ServiceSystem.pdb
