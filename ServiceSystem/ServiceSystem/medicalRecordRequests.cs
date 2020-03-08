@@ -20,6 +20,7 @@ namespace ServiceSystem
         public medicalRecordRequests()
         {
             InitializeComponent();
+            //display patient names and ids in listbox1
             patientList = Patient.getPatientList();
             listBox1.Items.Clear();
             for (int i = 0; i < patientList.Count; i++)
@@ -29,6 +30,7 @@ namespace ServiceSystem
             }
         }
 
+        //back button
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -39,6 +41,7 @@ namespace ServiceSystem
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //get selected patient's id
             string text = listBox1.GetItemText(listBox1.SelectedItem);
             String[] tokens = text.Split(' ');
             pID = tokens[0];
@@ -46,14 +49,18 @@ namespace ServiceSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string status = "Pending";
+            //create new medical record request
             string connStr = "server=csdatabase.eku.edu;user=stu_csc340;database=csc340_db;port=3306;password=Colonels18;";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
                 conn.Open();
-                string insert = "INSERT INTO fjs_medical_record_acess (Aproval_Status, Doctor_ID, Patient_ID) VALUES('"+status+"','"+1+"','"+pID+"')"; //"UPDATE fjs_medical_record_access SET Aproval_Status ='" + "Pending" + "', Doctor_ID ='"+"1"+"' WHERE Appointment_ID = '"+APid+"'";
+                string insert = "INSERT INTO fjs_medical_record_acess (Aproval_Status, Doctor_ID, Patient_ID) VALUES(@status, @did, @pid)";
                 MySqlCommand com = new MySqlCommand(insert, conn);
+                com.Parameters.AddWithValue("@status", "Pending");
+                com.Parameters.AddWithValue("@did", 1);
+                com.Parameters.AddWithValue("@pid", pID);
+                com.Prepare();
                 com.ExecuteNonQuery();
                 conn.Close();
             }

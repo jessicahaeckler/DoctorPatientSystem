@@ -18,6 +18,7 @@ namespace ServiceSystem
             InitializeComponent();
         }
 
+        //Appointments Page
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -26,6 +27,7 @@ namespace ServiceSystem
             this.Close();
         }
 
+        //medical Records Page
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -35,6 +37,7 @@ namespace ServiceSystem
 
         }
 
+        //Medical Record Requests
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -43,6 +46,7 @@ namespace ServiceSystem
             this.Close();
         }
 
+        //Refill Requests
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -51,6 +55,7 @@ namespace ServiceSystem
             this.Close();
         }
 
+        //Requested Calls
         private void Button5_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -59,6 +64,7 @@ namespace ServiceSystem
             this.Close();
         }
 
+        //Create Prescription
         private void Button6_Click(object sender, EventArgs e)
         {
             this.Hide();

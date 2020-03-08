@@ -19,15 +19,17 @@ namespace ServiceSystem
         public createPrescription()
         {
             InitializeComponent();
+            //fill listbox1 with patient names
             patientList = Patient.getPatientList();
             listBox1.Items.Clear();
             for (int i = 0; i < patientList.Count; i++)
             {
                 Patient temp = (Patient)patientList[i];
-                listBox1.Items.Add(temp.getName());
+                listBox1.Items.Add(temp.getID()+" "+temp.getName());
             }
         }
 
+        //back button
         private void Button3_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -38,30 +40,13 @@ namespace ServiceSystem
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string curItem = listBox1.SelectedItem.ToString();
-            DataTable myTable = new DataTable();
-            string connStr = "server=csdatabase.eku.edu;user=stu_csc340;database=csc340_db;port=3306;password=Colonels18;";
-            MySqlConnection conn = new MySqlConnection(connStr);
-            try
+            if (listBox1.SelectedItem != null)
             {
-                conn.Open();
-                string sql = "SELECT Patient_ID FROM fjs_patient WHERE Name ='" + curItem +"'";
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                //cmd.Parameters.AddWithValue("@myDate", dateString);
-                MySqlDataAdapter myAdapter = new MySqlDataAdapter(cmd);
-                myAdapter.Fill(myTable);
-                Console.WriteLine("Table is ready.");
+                string text = listBox1.GetItemText(listBox1.SelectedItem);
+                String[] tokens = text.Split(' ');
+                pid = Int32.Parse(tokens[0]);//gets appointment id from listbox
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
-            conn.Close();
-            foreach (DataRow row in myTable.Rows)
-            {
-                pid = Int32.Parse(row["Patient_ID"].ToString());
-                
-            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -70,9 +55,17 @@ namespace ServiceSystem
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
+                //insert prescription data into database
                 conn.Open();
-                string insert = "Insert into fjs_prescriptions (Patient_ID, Medicine, Dosage, Refills, Status, Instructions) Values('" + pid + "', '" + textBox1.Text + "', '" + Int32.Parse(textBox2.Text) + "', '" + Int32.Parse(textBox4.Text) + "', '" + 1 + "', '" + textBox3.Text + "')";
+                string insert = "Insert into fjs_prescriptions (Patient_ID, Medicine, Dosage, Refills, Status, Instructions) Values(@val1, @val2, @val3,@val4, @val5, @val6)";
                 MySqlCommand com = new MySqlCommand(insert, conn);
+                com.Parameters.AddWithValue("@val1", pid);
+                com.Parameters.AddWithValue("@val2", textBox1.Text);
+                com.Parameters.AddWithValue("@val3", Int32.Parse(textBox2.Text));
+                com.Parameters.AddWithValue("@val4", Int32.Parse(textBox4.Text));
+                com.Parameters.AddWithValue("@val5", "Waiting");
+                com.Parameters.AddWithValue("@val6", textBox3.Text);
+                com.Prepare();
                 com.ExecuteNonQuery();
                 conn.Close();
             }
@@ -84,9 +77,5 @@ namespace ServiceSystem
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
